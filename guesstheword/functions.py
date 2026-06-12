@@ -1,5 +1,5 @@
 import random
-from guesstheword.wordslist import words
+from wordslist import words
 
 def get_word():
     word = random.choice(words)
